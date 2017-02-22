@@ -4,4 +4,5 @@ function addToList(item) {
 
 $(document).on('click', addToList, function() {
   addToList($('#item').val());
+  $('#item').focus();
 });
