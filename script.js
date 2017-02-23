@@ -8,6 +8,6 @@ $(document).on('click', '#add-to-list', function() {
 });
 
 $(document).on('click', '.pending', function() {
-  $(this).parent().append('<span class=\'label success\'>Completed!</span>');
+  $(this).parent().addClass('completed');
   $(this).remove();
 });
