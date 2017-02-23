@@ -4,8 +4,8 @@ function addToList(item) {
 
 function updateTotal() {
   var pending = $('.pending').length;
-  var completed = $('.completed').length;
-  $('#total').text('Completed: ' + completed + ' | ' + 'Pending: ' + pending);
+  var purchased = $('.completed').length;
+  $('#total').text('Purchased: ' + purchased + ' | ' + 'Pending: ' + pending);
 }
 
 $(document).on('click', '#add-to-list', function() {
